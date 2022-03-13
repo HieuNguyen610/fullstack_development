@@ -1,0 +1,112 @@
+html{
+  font-size: 16px;
+}
+
+#mission {
+  background-image: url('https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg');
+  color: white;
+  margin: 0 auto;
+  height: 400px;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.mission-statement{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  height: 100px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+
+.container {
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.nav li{
+  display: inline-flex;
+  padding: 20px;
+  font-size: 1.5rem;
+}
+
+.nav a {
+  color: black;
+}
+
+#portfolio{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.image{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px 200px;
+  gap: 30px;
+}
+
+.image img{
+  width: 100px;
+  height: 100px;
+}
+
+.product{
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+#team{
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg");
+  color: white;
+  padding: 20px;
+}
+
+.investor{
+  width: 200px;
+  margin: 20px;
+  font-size: 2rem;
+}
+
+.team-image{
+  display: flex;
+  margin: 0 50px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}

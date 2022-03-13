@@ -1,0 +1,141 @@
+body{
+  background-color: black;
+  width: 100%;
+  font-family: Helvetica, 'Times New Roman';
+  color: seashell;
+}
+
+.cozy{
+  font-family: Helvetica, 'Times New Roman';
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  line-height: 50px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 19px;
+  float: left;
+}
+
+.nav{
+  float: right;
+  background-color: black;
+  color: seashell;
+  text-decoration: underline;
+  height: 50px;
+}
+
+.nav li{
+  display: inline-flex;
+  color: seashell;
+  align-self: flex-end;
+}
+
+.nav li a{
+  color: seashell;
+  font-size: 22px;
+  margin: 0px 10px;
+  line-height: 50px;
+}
+
+#header{
+  height: 69px;
+  align-content: space-between;
+  position:fixed;
+  top: 0;
+  left:0;
+  right:0;
+  opacity: 0.5;
+  background-color: black;
+}
+
+/*Mission section*/
+#mission{
+  margin: 69px auto;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  text-align: center;
+  align-items: center;
+  padding: 330px 20px;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+.content{
+  background-color: black;
+  padding: 10px;
+  align-items: center;
+}
+
+#main{
+  width: 1200px;
+  height: 700px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#product{
+  display: inline-flex ;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  width: 1000px;
+  align-content: space-between;
+  padding: 10px;
+  justify-content: space-around;
+
+}
+
+.row-1{
+  align-content: space-evenly;
+  display: flex;
+  margin: 10px;
+}
+
+.row-2{
+  align-content: space-evenly;
+  display: flex;
+  margin: 10px;
+}
+
+.tea img{
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.tea h4{
+  margin-top: 10px;
+}
+
+#location{
+  width: 1200px;
+  height: 500px;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  margin: 0 auto;
+  align-items: center;
+}
+
+#location h2{
+
+}
+
+.place{
+  display: inline-flex;
+  padding: 100px 20px;
+}
+
+.box{
+  width: 300px;
+  height: 200px;
+  margin: 15px 20px;
+  background-color: black;
+  color: seashell;
+}
+
+#copyright{
+  float: left;
+}
+
