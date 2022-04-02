@@ -11,4 +11,6 @@ public class MainController {
         model.addAttribute("eventName", "Fifa18");
         return "index";
     }
+
+
 }

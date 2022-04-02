@@ -16,7 +16,6 @@ import lombok.Setter;
 @Data
 @Getter
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
 @Entity
 public class Car {
@@ -37,20 +36,24 @@ public class Car {
 
     private int price;
 
-    public Car(String brand, String model, String color, String registerNumber, int year,
-        int price) {
-        super();
-        this.brand = brand;
-        this.model = model;
-        this.color = color;
-        this.registerNumber = registerNumber;
-        this.year = year;
-        this.price = price;
-//        this.owner = owner;
+//    public Car(String brand, String model, String color, String registerNumber, int year,
+//        int price) {
+//        super();
+//        this.brand = brand;
+//        this.model = model;
+//        this.color = color;
+//        this.registerNumber = registerNumber;
+//        this.year = year;
+//        this.price = price;
+//        System.out.println("I am a constructor : "+ brand);
+//    }
+
+    public Car() {
+        System.out.println("I am a constructor : ");
     }
 
-//    @ManyToOne(fetch = FetchType.LAZY)
-//    @JoinColumn(name="owner")
-//    private Owner owner;
-
+    public static void main(String[] args) {
+        // Invoke the constructor:
+        Car ferrari = new Car(); // Prints: I'm a constructor!
+    }
 }
